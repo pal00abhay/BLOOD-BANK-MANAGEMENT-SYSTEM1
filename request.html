@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Request Blood</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+    <h2>Blood Bank</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donor.html">Become Donor</a></li>
+        <li><a href="search.html">Search Blood</a></li>
+        <li><a href="request.html">Request Blood</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Request Blood</h2>
+
+    <form>
+        <label>Your Name:</label>
+        <input type="text" required>
+
+        <label>Blood Group Needed:</label>
+        <select required>
+            <option>A+</option><option>A-</option>
+            <option>B+</option><option>B-</option>
+            <option>O+</option><option>O-</option>
+            <option>AB+</option><option>AB-</option>
+        </select>
+
+        <label>Mobile:</label>
+        <input type="text" required>
+
+        <label>City:</label>
+        <input type="text" required>
+
+        <button class="btn">Submit Request</button>
+    </form>
+</div>
+
+</body>
+</html>
